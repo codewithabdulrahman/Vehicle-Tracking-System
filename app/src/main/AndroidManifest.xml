@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.abdulrahman.finalapp">
+
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="com.abdul.mapsapp.permission.MAPS_RECEIVE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permissions.READ_GSERVICES" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".D_Login" />
+        <activity android:name=".A_Login" />
+        <activity android:name=".D_sginup" />
+        <activity android:name=".A_sginup" />
+        <activity
+            android:name=".D_Dashboard"
+            android:label="@string/title_activity_d__dashboard"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".A_Dashboard"
+            android:label="@string/title_activity_a__dashboard"
+            android:theme="@style/AppTheme" />
+
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyBvs5dz6G91MVoVWHUNTYfDkN3aFH2Xyrc" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity android:name=".Circle_Number" />
+        <activity
+            android:name=".JoinCircle"
+            android:label="@string/title_activity_join_circle"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".Circle_Members" />
+        <activity
+            android:name=".Driver_Location"
+            android:label="@string/title_activity_driver__location"
+            android:theme="@style/AppTheme" />
+    </application>
+
+</manifest>

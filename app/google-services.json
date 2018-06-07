@@ -1,0 +1,107 @@
+{
+  "project_info": {
+    "project_number": "600529588362",
+    "firebase_url": "https://finalproject-8e3cf.firebaseio.com",
+    "project_id": "finalproject-8e3cf",
+    "storage_bucket": "finalproject-8e3cf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:600529588362:android:c0b9b586962eeed7",
+        "android_client_info": {
+          "package_name": "com.example.abdulrahman.finalapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "600529588362-jvvn4qkhghg59k8ua44528st7k3ogtda.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.abdulrahman.finalapp",
+            "certificate_hash": "b72117c4fc3d92e50c8cee605b3b80473772df2c"
+          }
+        },
+        {
+          "client_id": "600529588362-3gg9ituq0caokh959etujmsolg5g1jfa.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "600529588362-3gg9ituq0caokh959etujmsolg5g1jfa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAWF3M3uO4UvnTv5_vJGOv7tZAOk_hVKO4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "600529588362-3gg9ituq0caokh959etujmsolg5g1jfa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:600529588362:android:adeb16a645463b75",
+        "android_client_info": {
+          "package_name": "com.example.abdulrahman.vehicletrackingsystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "600529588362-46jeh13pts3a6pgujj04lcv9n0lnhjc3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.abdulrahman.vehicletrackingsystem",
+            "certificate_hash": "b72117c4fc3d92e50c8cee605b3b80473772df2c"
+          }
+        },
+        {
+          "client_id": "600529588362-3gg9ituq0caokh959etujmsolg5g1jfa.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "600529588362-3gg9ituq0caokh959etujmsolg5g1jfa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAWF3M3uO4UvnTv5_vJGOv7tZAOk_hVKO4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "600529588362-3gg9ituq0caokh959etujmsolg5g1jfa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
